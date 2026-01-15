@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>KLINOVA PLUS - Lavage auto à domicile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f8f9fa;
+            color: #333;
+            line-height: 1.5;
+        }
+        .header {
+            background: #006FE7;
+            color: white;
+            text-align: center;
+            padding: 50px 20px 40px;
+        }
+        .header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        .logo-container {
+            margin: 20px 0;
+        }
+        .slogan {
+            font-size: 1.25rem;
+            margin: 20px 0 10px;
+            font-weight: 500;
+        }
+        .description {
+            font-size: 1.05rem;
+            margin-bottom: 30px;
+            opacity: 0.95;
+        }
+        .btn {
+            display: block;
+            width: 80%;
+            max-width: 300px;
+            margin: 0 auto 20px;
+            background: #e0e0e0;
+            color: #333;
+            font-weight: bold;
+            padding: 16px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.15rem;
+            text-align: center;
+            transition: background 0.3s;
+        }
+        .btn:hover { background: #d0d0d0; }
+        
+        .section {
+            background: white;
+            margin: 20px 15px;
+            padding: 30px 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #006FE7;
+            font-size: 1.6rem;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .item {
+            display: flex;
+            align-items: center;
+            padding: 18px 0;
+            border-bottom: 1px solid #eee;
+            color: #333;
+            text-decoration: none;
+        }
+        .item:last-child { border-bottom: none; }
+        .icon {
+            font-size: 2.2rem;
+            width: 60px;
+            text-align: center;
+        }
+        .wa { color: #25D366; }
+        .tiktok { color: #000000; }
+        .fb { color: #1877F2; }
+        .phone { color: #006FE7; }
+        .email { color: #ea4335; }
+        .service-icon { color: #006FE7; }
+        .content { flex: 1; margin-left: 15px; }
+        .content strong { display: block; }
+        .content small { color: #666; font-size: 0.9rem; }
+        .arrow { color: #aaa; font-size: 1.5rem; }
+        .about-text {
+            font-size: 1.05rem;
+            text-align: justify;
+        }
+        .name-item {
+            display: flex;
+            align-items: flex-start;
+            padding: 18px 0 18px 0;
+            color: #333;
+        }
+        .name-item .icon {
+            font-size: 2.2rem;
+            width: 60px;
+            text-align: center;
+            color: #666;
+        }
+        .name-item .content {
+            flex: 1;
+            margin-left: 15px;
+        }
+        .name-item .label {
+            font-size: 0.95rem;
+            color: #666;
+        }
+        .name-item .value {
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Écran principal avec le nouveau logo intégré -->
+    <div class="header">
+        <h1>KLINOVA PLUS</h1>
+        <div class="logo-container">
+            <img src="https://i.imgur.com/mWwChVL.png" 
+                 alt="Logo Klinova Plus - Voilier avec goutte et texte" 
+                 style="width: 180px; height: auto; display: block; margin: 15px auto;">
+        </div>
+        <p class="slogan">Lavage auto à domicile</p>
+        <p class="description">
+            On vient chez le client,<br>
+            on s'occupe de tout,<br>
+            résultat nickel.
+        </p>
+        <a href="https://wa.me/22898133910?text=Bonjour%20Klinova%20Plus%2C%20je%20souhaite%20un%20lavage%20auto%20%C3%A0%20domicile%20!" class="btn">Écrivez-Nous</a>
+    </div>
+
+    <!-- Section Écrivez-Nous / Réseaux sociaux -->
+    <div class="section">
+        <h2>Écrivez-Nous</h2>
+        <a href="https://wa.me/22898133910?text=Bonjour%20Klinova%20Plus%20!" class="item">
+            <i class="fab fa-whatsapp icon wa"></i>
+            <div class="content">
+                <strong>WhatsApp</strong>
+                <small>Écrivez-nous WhatsApp</small>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </a>
+        <a href="https://www.tiktok.com/@klinovaplus" target="_blank" class="item">
+            <i class="fab fa-tiktok icon tiktok"></i>
+            <div class="content">
+                <strong>TikTok</strong>
+                <small>Suivez-nous sur TikTok</small>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </a>
+        <a href="https://www.facebook.com/klinovaplus" target="_blank" class="item">
+            <i class="fab fa-facebook-f icon fb"></i>
+            <div class="content">
+                <strong>Facebook</strong>
+                <small>Suivez-nous sur Facebook</small>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </a>
+    </div>
+
+    <!-- Section Contact avec Responsable en PREMIER -->
+    <div class="section">
+        <h2>Contact</h2>
+
+        <!-- Responsable en premier -->
+        <div class="name-item">
+            <i class="fas fa-user icon"></i>
+            <div class="content">
+                <div class="label">Responsable</div>
+                <div class="value">Simon Nambrissiba</div>
+            </div>
+        </div>
+
+        <a href="https://wa.me/22898133910?text=Bonjour%20!" class="item">
+            <i class="fab fa-whatsapp icon wa"></i>
+            <div class="content">
+                <strong>WhatsApp / Appel</strong><br>
+                +228 98133910
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </a>
+        <a href="tel:+22893952517" class="item">
+            <i class="fas fa-phone icon phone"></i>
+            <div class="content">
+                <strong>Appel</strong><br>
+                +228 93952517
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </a>
+        <a href="mailto:klinovaplus@gmail.com" class="item">
+            <i class="fas fa-envelope icon email"></i>
+            <div class="content">
+                <strong>Email</strong><br>
+                klinovaplus@gmail.com
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </a>
+    </div>
+
+    <!-- Section Services (avant-dernière) -->
+    <div class="section">
+        <h2>Nos Services</h2>
+        <div class="item">
+            <i class="fas fa-car icon service-icon"></i>
+            <div class="content">
+                <strong>Lavage extérieur complet</strong>
+                <small>Carrosserie, jantes, pneus brillants</small>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </div>
+        <div class="item">
+            <i class="fas fa-vacuum icon service-icon"></i>
+            <div class="content">
+                <strong>Nettoyage intérieur approfondi</strong>
+                <small>Aspirateur, sièges, tableau de bord, vitres</small>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </div>
+        <div class="item">
+            <i class="fas fa-spray-can icon service-icon"></i>
+            <div class="content">
+                <strong>Traitement plastiques & cuir</strong>
+                <small>Protection et brillance longue durée</small>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </div>
+        <div class="item">
+            <i class="fas fa-magic icon service-icon"></i>
+            <div class="content">
+                <strong>Polissage & cire</strong>
+                <small>Brillance miroir pour votre véhicule</small>
+            </div>
+            <i class="fas fa-chevron-right arrow"></i>
+        </div>
+    </div>
+
+    <!-- Section À propos (dernière) -->
+    <div class="section">
+        <h2>À propos de l'entreprise</h2>
+        <p class="about-text">
+            Klinova+ est un service spécialisé dans le lavage et l'entretien des véhicules à domicile, avec pour mission d'offrir une propreté irréprochable, un confort maximal et une relation durable basée sur la confiance et la qualité.
+        </p>
+    </div>
+
+</body>
+</html>
